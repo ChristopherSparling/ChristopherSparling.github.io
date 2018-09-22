@@ -1,21 +1,38 @@
-div {
-    margin-left: 10%;
+body {
+    color: #00FF33;
+    background-color: black
+}
+.title {
+    margin-left: 4em;
+    margin-top: 4em;
 }
 
+.main {
+    margin-left: 4em;
+    margin-top: 1em;
+}
 
-.list div {
+.list > div, .ns + div {
     display: none;
-    padding-left: 4%;
-    padding-top: 2%;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    width: 75%;
 }
 
-.list > p:hover, .s {
-    color: white;
-    background-color: black;
+.inline {
+    display: inline;
 }
 
+p > span {
+    color: rgb(113, 203, 255);
+}
 
-
+.ns:hover, .s {
+    /*color: white;*/
+    background-color: rgba(138, 134, 133, 0.493);
+    width: 60%;
+}
 
 h3 {
     font-family: Consolas, monaco, monospace;
@@ -26,7 +43,6 @@ h3 {
     line-height: 20px;
     margin-bottom: 1%;
 }
-
 
 p {
     font-family: Consolas, monaco, monospace;
