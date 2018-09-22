@@ -2,7 +2,10 @@ function show_div(id){
 
 }
 
-
-$("#about-me").click(function(){
-    $(this).toggle();
+$(document).ready(function(){
+    $(".list p").click(function(){
+        $(this).next(".desc").toggle();
+        $(this).toggleClass('s');
+        $(this).toggleClass('ns');
+    });
 });

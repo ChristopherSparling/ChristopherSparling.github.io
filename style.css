@@ -2,9 +2,21 @@ div {
     margin-left: 10%;
 }
 
+
 .list div {
     display: none;
+    padding-left: 4%;
+    padding-top: 2%;
 }
+
+.list > p:hover, .s {
+    color: white;
+    background-color: black;
+}
+
+
+
+
 h3 {
     font-family: Consolas, monaco, monospace;
     font-size: 20px;
@@ -27,3 +39,4 @@ p {
     margin-bottom: 0%;
     padding: 0%;
 }
+
