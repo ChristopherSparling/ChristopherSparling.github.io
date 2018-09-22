@@ -4,6 +4,8 @@
         <link rel="stylesheet" type="text/css" href="style.css">     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="./scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     </head>
     <body>
         <div class="title">
@@ -24,8 +26,8 @@
                     Testing
                 </p></div>
 
-                <p class='ns'>guest@cs-port <span>~ $ </span> cd ./personal-projects</p>  
-                <div>
+                <p class='ns' id="button">guest@cs-port <span>~ $ </span> cd ./personal-projects</p>  
+                <div class="display">
                     <p>guest@cs-port <span>~ $ </span> ls</p>
                     <div>
 
@@ -41,10 +43,30 @@
                 </div>
                 
                 <p class="ns">guest@cs-port <span>~ $ </span> ls ./work-history</p>
-                <div><p>
-                    Hello
-                </p></div>
-
+                <div>
+                        <p>guest@cs-port <span>~/work-history $ </span> ls</p>
+                        <div>
+    
+                            <p class="inline arrow">>></p>
+                            <p class="inline ns"><span >Litens Automotive Group</span></p>
+                            <div>hello</div>
+                        </div>
+                        <div>
+                            <p class="inline arrow ">>></p>
+                            <p class="inline ns"><span >Karat</span></p>
+                            <div>hello</div>
+                        </div>
+                        <div>
+                                <p class="inline arrow ">>></p>
+                                <p class="inline ns"><span >Climax Media</span></p>
+                                <div>hello</div>
+                        </div>
+                        <div>
+                                <p class="inline arrow ">>></p>
+                                <p class="inline ns"><span >Concord Screen</span></p>
+                                <div>hello</div>
+                        </div>
+                    </div>
                 <p class="ns">guest@cs-port <span>~ $ </span>mv cjsresume.pdf /guest/Downloads</p>
                 <div><p>
                     Hello

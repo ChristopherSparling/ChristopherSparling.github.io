@@ -13,7 +13,7 @@ body {
 }
 
 .list > div, .ns + div {
-    display: none;
+    /*display: none;*/
     padding-left: 2em;
     padding-top: 1em;
     padding-bottom: 1.5em;
@@ -28,9 +28,9 @@ p > span {
     color: rgb(113, 203, 255);
 }
 
-.ns:hover, .s {
+.ns:hover{
     /*color: white;*/
-    background-color: rgba(138, 134, 133, 0.493);
+    background-color: #8a86857e;
     width: 60%;
 }
 
