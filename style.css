@@ -10,7 +10,9 @@ body {
 
 .main {
     margin-left: 4em;
-    margin-top: 1em;
+    margin-right: 4em;
+    margin-top: 0.5em;
+    margin-bottom: 2em
 }
 
 .ns+div {
@@ -19,19 +21,21 @@ body {
 }
 
 .s+div {
-
     padding-left: 1em;
-    padding-top: 1em;
+    padding-top: 0.5em;
     padding-bottom: 1em;
-    width: 75%;
 }
 
 .content div:last-child div {
     padding-bottom: 0em
 }
 
-.inline {
+.inline > p{
     display: inline-block;
+}
+
+.text-block {
+    padding-top: 0.25em;
 }
 
 p>span {
@@ -50,7 +54,6 @@ p>span {
 
 }
 
-
 h3 {
     font-family: Consolas, monaco, monospace;
     font-size: 20px;
@@ -63,12 +66,16 @@ h3 {
 
 p {
     font-family: Consolas, monaco, monospace;
-    font-size: 14px;
+    font-size: 18px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 20px;
     margin-top: 0%;
     margin-bottom: 0%;
     padding: 0%;
+}
+
+a {
+    color: green
 }

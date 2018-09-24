@@ -17,17 +17,29 @@ $(document).ready(function () {
     });
 });
 
-// Animate 
+// Animate highlights
 $(document).ready(function () {
-            $(".ns, .s").click(function () {
-                    $(this).css("background-color", "white")
-                    $(this).animate({
-                            backgroundColor: "#000"
-                        }, {
-                            duration: 750,
-                            complete: function () {
-                                $(this).removeAttr('style')
-                            }
-                        });
-                    });
-            });
+    $(".ns, .s").click(function () {
+        $(this).css("background-color", "white")
+        $(this).animate({
+            backgroundColor: "#000"
+        }, {
+            duration: 750,
+            complete: function () {
+                $(this).removeAttr('style')
+            }
+        });
+    });
+});
+
+// Add brackets around hyperlinks when hovered over
+$(document).ready(function () {
+    $("a").hover(
+        function () {
+            $(this).text($(this).text() + ">>");
+
+        },
+        function () {
+            $(this).text($(this).text().substring(0, $(this).text().length - 2));
+        });
+});
