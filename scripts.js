@@ -20,9 +20,9 @@ $(document).ready(function () {
 // Animate highlights
 $(document).ready(function () {
     $(".ns, .s").click(function () {
-        $(this).css("background-color", "white")
+        $(this).css("background-color", "black")
         $(this).animate({
-            backgroundColor: "#000"
+            backgroundColor: "white"
         }, {
             duration: 750,
             complete: function () {
