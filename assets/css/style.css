@@ -20,6 +20,7 @@ p {
     margin-bottom: 0%;
     padding: 0%;
     background-color: black;
+    
 }
 
 body,
@@ -66,6 +67,7 @@ h3  {
 
 .text-block {
     padding-top: 0.25em;
+    width: 50%;
 }
 
 .cb,
