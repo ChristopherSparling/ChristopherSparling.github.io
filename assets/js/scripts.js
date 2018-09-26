@@ -34,7 +34,7 @@ $(document).ready(function () {
 
 // Add brackets around hyperlinks when hovered over
 $(document).ready(function () {
-    $("a").hover(
+    $("a.text-link").hover(
         function () {
             $(this).text($(this).text() + ">>");
 
