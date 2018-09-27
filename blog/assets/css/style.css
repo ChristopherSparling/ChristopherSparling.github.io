@@ -1,0 +1,143 @@
+h3 {
+    font-family: Consolas, monaco, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 1%;
+    background-color: none;
+}
+
+p, li {
+    font-family: Consolas, monaco, monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    background-color: black;
+    
+}
+
+body,
+.h3,
+.p {
+    color: white;
+    background-color: black;
+} 
+
+.title {
+    margin-left: 4em;
+    margin-top: 4em;
+    display: inline-block;
+    background: none;
+}
+
+.main {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 0.5em;
+    margin-bottom: 2em
+}
+
+.ns+div {
+    display: none;
+    padding-bottom: 1em;
+}
+
+.s+div {
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+
+.content div:last-child div {
+    padding-bottom: 0em
+}
+
+.inline > p,
+h3  {
+    display: inline-block;
+}
+
+.text-block {
+    padding-top: 0.25em;
+    width: 50%;
+}
+
+.cb,
+.ns>span,
+.s>span,
+.content>p>span {
+    color: #216c97;
+}
+
+.ns,
+.s {
+    background-color: none;
+    display: inline-block;
+}
+
+.ns:hover,
+.s:hover {
+    background-color: #8a86857e;
+
+}
+
+b {
+    color: grey;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a svg:hover path {
+    fill: #216c97;
+    stroke: #216c97;
+}
+svg path {
+    fill: white;
+}
+a svg {
+    width: 1.75em;
+    height: 1.75em;
+    margin-right: 0.25em;
+}
+
+.media-links {
+    padding-top: 0.5em;
+}
+
+/* Particle CSS */
+#particles-js canvas {
+    opacity: 0;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7)
+}
+
+#particles-js canvas {
+    display: block;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
