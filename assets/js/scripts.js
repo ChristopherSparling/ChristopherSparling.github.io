@@ -1,7 +1,7 @@
 // Toggles visibility of a selectable tag's children
 $(document).ready(function () {
     $(".ns").click(function () {
-        $(this).next("div").toggle();
+        $(this).next().next("div").toggle();
         $(this).toggleClass('s');
         $(this).toggleClass('ns');
 
